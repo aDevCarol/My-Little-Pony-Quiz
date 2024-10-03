@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/logo_Favicon.png" type="image/x-icon">
+    <title>Quiz dos Ponies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1><span>Quiz:</span> Qual Pony Você É?</h1>
+        <form id="quizForm">
+            <div class="perguntas">
+                <div class="pergunta">
+                    <p><span>1.</span> Qual a sua cor preferida?</p>
+                    <label class="custom-radio">
+                        <input type="radio" name="color" value="Amarelo" required> 
+                        <span class="radio-mark"></span>
+                        Amarelo
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="color" value="Rosa"> 
+                        <span class="radio-mark"></span>
+                        Rosa
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="color" value="Roxo"> 
+                        <span class="radio-mark"></span>
+                        Roxo
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="color" value="Branco"> 
+                        <span class="radio-mark"></span>
+                        Branco
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="color" value="Azul"> 
+                        <span class="radio-mark"></span>
+                        Azul
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="color" value="Laranja"> 
+                        <span class="radio-mark"></span>
+                        Laranja
+                    </label>
+                </div>
+                <div class="pergunta">
+                    <p><span>2.</span> Qual animal você mais gosta?</p>
+                    <label class="custom-radio">
+                        <input type="radio" name="animal" value="Coelho" required> 
+                        <span class="radio-mark"></span>
+                        Coelho
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="animal" value="Jacaré"> 
+                        <span class="radio-mark"></span>
+                        Jacaré
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="animal" value="Coruja"> 
+                        <span class="radio-mark"></span>
+                        Coruja
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="animal" value="Gato"> 
+                        <span class="radio-mark"></span>
+                        Gato
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="animal" value="Tartaruga"> 
+                        <span class="radio-mark"></span>
+                        Tartaruga
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="animal" value="Cachorro"> 
+                        <span class="radio-mark"></span>
+                        Cachorro
+                    </label>
+                </div>
+                <div class="pergunta">
+                    <p><span>3.</span> O que você gosta de fazer?</p>
+                    <label class="custom-radio">
+                        <input type="radio" name="activity" value="Contato com a natureza" required> 
+                        <span class="radio-mark"></span>
+                        Contato com a natureza
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="activity" value="Organizar festas"> 
+                        <span class="radio-mark"></span>
+                        Organizar festas
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="activity" value="Ler e aprender"> 
+                        <span class="radio-mark"></span>
+                        Ler e aprender
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="activity" value="Costurar e desenhar"> 
+                        <span class="radio-mark"></span>
+                        Costurar e desenhar
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="activity" value="Esportes"> 
+                        <span class="radio-mark"></span>
+                        Esportes
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="activity" value="Tempo com a família"> 
+                        <span class="radio-mark"></span>
+                        Tempo com a família
+                    </label>
+                </div>
+                <div class="pergunta">
+                    <p><span>4.</span> Como você descreveria seu traço de personalidade?</p>
+                    <label class="custom-radio">
+                        <input type="radio" name="trait" value="Tímida" required> 
+                        <span class="radio-mark"></span>
+                        Tímida
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="trait" value="Alto astral"> 
+                        <span class="radio-mark"></span>
+                        Alto astral
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="trait" value="Inteligente"> 
+                        <span class="radio-mark"></span>
+                        Inteligente
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="trait" value="Vaidosa"> 
+                        <span class="radio-mark"></span>
+                        Vaidosa
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="trait" value="Esportista"> 
+                        <span class="radio-mark"></span>
+                        Esportista
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="trait" value="Competitiva"> 
+                        <span class="radio-mark"></span>
+                        Competitiva
+                    </label>
+                </div>
+                <div class="pergunta">
+                    <p><span>5.</span> Qual é o seu elemento?</p>
+                    <label class="custom-radio">
+                        <input type="radio" name="element" value="Bondade" required>
+                        <span class="radio-mark"></span>
+                        Bondade
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="element" value="Bom humor">
+                        <span class="radio-mark"></span>
+                        Bom humor
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="element" value="Magia"> 
+                        <span class="radio-mark"></span>
+                        Magia
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="element" value="Generosidade"> 
+                        <span class="radio-mark"></span>
+                        Generosidade
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="element" value="Lealdade"> 
+                        <span class="radio-mark"></span>
+                        Lealdade
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="element" value="Honestidade"> 
+                        <span class="radio-mark"></span>
+                        Honestidade
+                    </label>
+                </div>
+                <div class="pergunta">
+                    <p><span>6.</span> O que você faz quando está triste?</p>
+                    <label class="custom-radio">
+                        <input type="radio" name="sadness" value="Choro e busco um tempo para mim" required> 
+                        <span class="radio-mark"></span>
+                        Choro e busco um tempo para mim
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="sadness" value="Tento ver o lado positivo"> 
+                        <span class="radio-mark"></span>
+                        Tento ver o lado positivo
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="sadness" value="Tiro um tempo para pensar"> 
+                        <span class="radio-mark"></span>
+                        Tiro um tempo para pensar
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="sadness" value="Procuro minhas amigas para desabafar">
+                        <span class="radio-mark"></span>
+                        Procuro minhas amigas para desabafar
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="sadness" value="Tento me distrair">
+                        <span class="radio-mark"></span>
+                        Tento me distrair
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="sadness" value="Entro de cabeça no trabalho"> 
+                        <span class="radio-mark"></span>
+                        Entro de cabeça no trabalho
+                    </label>
+                </div>
+                <div class="pergunta">
+                    <p><span>7.</span> Como você lidaria com uma amizade falsa?</p>
+                    <label class="custom-radio">
+                        <input type="radio" name="falseFreindship" value="Me afastaria aos poucos" required> 
+                        <span class="radio-mark"></span>
+                        Me afastaria aos poucos
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="falseFreindship" value="Tento mostrar que ela está errada"> 
+                        <span class="radio-mark"></span>
+                        Tento mostrar que ela está errada
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="falseFreindship" value="Ficaria quieta até a hora de agir"> 
+                        <span class="radio-mark"></span>
+                        Ficaria quieta até a hora de agir
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="falseFreindship" value="Seria falsa com ela também"> 
+                        <span class="radio-mark"></span>
+                        Seria falsa com ela também
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="falseFreindship" value="Bateria nela"> 
+                        <span class="radio-mark"></span>
+                        Bateria nela
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="falseFreindship" value="Jogaria ela num buraco"> 
+                        <span class="radio-mark"></span>
+                        Jogaria ela num buraco
+                    </label>
+                </div>
+                <div class="pergunta">
+                    <p><span>8.</span> Que tipo de música você mais gosta?</p>
+                    <label class="custom-radio">
+                        <input type="radio" name="music" value="Músicas calmas" required> 
+                        <span class="radio-mark"></span>
+                        Músicas calmas
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="music" value="Tudo para uma festa"> 
+                        <span class="radio-mark"></span>
+                        Tudo para uma festa
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="music" value="Música clássica"> 
+                        <span class="radio-mark"></span>
+                        Música clássica
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="music" value="Música pop"> 
+                        <span class="radio-mark"></span>
+                        Música pop
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="music" value="Rock"> 
+                        <span class="radio-mark"></span>
+                        Rock
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="music" value="Música country"> 
+                        <span class="radio-mark"></span>
+                        Música country
+                    </label>
+                </div>
+                <div class="pergunta">
+                    <p><span>9.</span> Como é a sua relação com seus irmãos?</p>
+                    <label class="custom-radio">
+                        <input type="radio" name="siblings" value="Não mantemos muito contato" required> 
+                        <span class="radio-mark"></span>
+                        Não mantemos muito contato
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="siblings" value="Estamos distantes"> 
+                        <span class="radio-mark"></span>
+                        Estamos distantes
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="siblings" value="Aprendo bastante com meu irmão mais velho">
+                        <span class="radio-mark"></span>
+                        Aprendo bastante com meu irmão mais velho
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="siblings" value="Tento ensinar meu irmão/irmã"> 
+                        <span class="radio-mark"></span>
+                        Tento ensinar meu irmão/irmã
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="siblings" value="Tenho apenas os irmãos que a vida me deu"> 
+                        <span class="radio-mark"></span>
+                        Tenho apenas os irmãos que a vida me deu
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="siblings" value="Sou muito próximo dos meus irmãos"> 
+                        <span class="radio-mark"></span>
+                        Sou muito próximo dos meus irmãos
+                    </label>
+                </div>
+                <div class="pergunta">
+                    <p><span>10.</span> Qual é o seu estilo de vida?</p>
+                    <label class="custom-radio">
+                        <input type="radio" name="lifestyle" value="Tranquilo e em contato com a natureza" required> 
+                        <span class="radio-mark"></span>
+                        Tranquilo e em contato com a natureza
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="lifestyle" value="Agitado e cheio de festas"> 
+                        <span class="radio-mark"></span>
+                        Agitado e cheio de festas
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="lifestyle" value="Estudando e aprendendo sempre"> 
+                        <span class="radio-mark"></span>
+                        Estudando e aprendendo sempre
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="lifestyle" value="Criativo e expressando através da moda">
+                        <span class="radio-mark"></span>
+                        Criativo e expressando através da moda
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="lifestyle" value="Ativo e competitivo"> 
+                        <span class="radio-mark"></span>
+                        Ativo e competitivo
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="lifestyle" value="Trabalhando duro e focado"> 
+                        <span class="radio-mark"></span>
+                        Trabalhando duro e focado
+                    </label>
+                </div>
+            </div>
+            
+            <button type="submit">Enviar Respostas</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
